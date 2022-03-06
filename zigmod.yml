@@ -2,7 +2,7 @@ id: ceuuaa9f4tywi90vkv97mymxo2e50zhadneruptqg1wdhyfw
 name: libvirt
 main: libvirt.zig
 license: AGPL-3.0
-description: Zig bindings for libvirt
+description: Zig bindings to the libvirt C library
 c_include_dirs:
   - include
 dependencies:

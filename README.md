@@ -1,6 +1,6 @@
 # zig-libvirt
 
-Zig bindings for libvirt
+Zig bindings to the libvirt C library
 
 ## Updating
 
