@@ -1,0 +1,13 @@
+id: ceuuaa9f4tywi90vkv97mymxo2e50zhadneruptqg1wdhyfw
+name: libvirt
+main: libvirt.zig
+license: AGPL-3.0
+description: Zig bindings for libvirt
+c_include_dirs:
+  - include
+dependencies:
+  - src: git https://gitlab.com/libvirt/libvirt tag-v8.1.0
+    id: ubscuxfstq3uzqf2zj5ft6b4h2g7n3uv3xmgxjuh
+    license: LGPL-2.1-or-later
+    c_include_dirs:
+      - include
