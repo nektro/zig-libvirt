@@ -9,8 +9,6 @@ Presuming version is `v8.1.0`, first update `zigmod.yml` to have the correct tag
 ```sh
 $ zigmod fetch
 $ nix-shell
-$ cd .zigmod/deps/v/git/gitlab.com/libvirt/libvirt/tag-v8.1.0/
-$ meson setup ../../../../../../../../build/
-$ cd ../../../../../../../../
+$ meson setup build .zigmod/deps/v/git/gitlab.com/libvirt/libvirt/tag-v8.1.0
 $ cp -R build/include/ .
 ```
